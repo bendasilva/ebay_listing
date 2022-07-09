@@ -1,0 +1,46 @@
+  @import url("https://use.typekit.net/zql7azp.css");
+
+  .price{
+    margin-left:14px;
+    font-weight:600;
+  }
+ .strikethrough-diagonal {
+  position: relative;
+  color: red;
+  opacity:0.5;
+  }
+  .strikethrough-diagonal:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 45%;
+    right: 0;
+    border-top: 1px solid;
+    border-color: inherit;
+    -webkit-transform: skewY(-10deg);
+    -moz-transform: skewY(-10deg);
+    transform: skewY(-10deg);
+   }
+    
+  *{
+    font-family: nort, sans-serif;
+    text-transform:none;
+
+  }
+  
+  h1,h2,h3,h4,h5,h6{margin:0;}
+  h1{
+    font-size: 36px;
+    font-weight: 700;
+    font-style: normal;
+    text-transform:uppercase;
+  }
+  
+   h2,span{
+     font-size:24px;
+     font-weight: 400;
+     font-style: normal;
+     text-transform:uppercase;
+     display:inline;
+  }
+  
